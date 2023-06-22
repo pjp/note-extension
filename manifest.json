@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Note Keeper",
+    "version": "1.1",
+    "description": "A simple Chrome extension to save and display text notes.",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icons8-text-16.png",
+            "32": "icons/icons8-text-32.png",
+            "48": "icons/icons8-text-48.png"
+        }
+    }
+}
